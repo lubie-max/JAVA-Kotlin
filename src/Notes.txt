@@ -1,0 +1,21 @@
+
+
+$$$ Abstraction is the pillar in OOP which we achieve from Encapsulation, Polymorphism and Inheritance.
+
+##  Inheritance and Polymorphism
+Inheritance :
+    Allows  a class to inherit the attributes and methods from its parent class.
+    It promotes code reusability
+
+Polymorphism :
+
+
+
+
+## Encapsulation :
+    Protection of data
+
+    not giving direct access to the private methods and attributes.
+
+
+ **** Interfaces
