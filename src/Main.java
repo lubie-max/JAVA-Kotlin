@@ -1,3 +1,5 @@
+import java.lang.classfile.Interfaces;
+
 public class Main {
 
 
@@ -24,6 +26,8 @@ public class Main {
 
 
 
+
+//        Interfaces ::::
 
 
 

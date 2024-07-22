@@ -19,3 +19,8 @@ Polymorphism :
 
 
  **** Interfaces
+
+
+//        Interfaces  don't have their defined behavior. they  don't consist constructors.
+//        they cannot implement methods (except default and static methods).
+//        Interfaces are used to achieve abstraction and multiple inheritance in Java.

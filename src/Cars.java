@@ -1,4 +1,5 @@
-public class Cars {
+public interface Cars {
+    void carModel();
 
 
 }
