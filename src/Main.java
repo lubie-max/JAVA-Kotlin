@@ -1,4 +1,4 @@
-import java.lang.classfile.Interfaces;
+//import java.lang.classfile.Interfaces;
 
 public class Main {
 
@@ -13,9 +13,9 @@ public class Main {
 
         //================ upcasting ==============
 
-        Animal d = new  Dog ();
-        d.eat();  // overridden
-        d.drink();
+//        Animal d = new  Dog ();
+//        d.eat();  // overridden
+//        d.drink();
 //        d.sniff(); // we can not access sniff() method from dog since object is created with reference of Parent class
 
 
@@ -28,6 +28,9 @@ public class Main {
 
 
 //        Interfaces ::::
+
+    Creta c = new Creta();
+//    c.carModel();
 
 
 
