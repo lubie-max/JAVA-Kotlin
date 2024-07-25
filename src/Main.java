@@ -29,7 +29,7 @@ public class Main {
 
 //        Interfaces ::::
 
-    Creta c = new Creta();
+//    Creta c = new Creta();
 //    c.carModel();
 
 
