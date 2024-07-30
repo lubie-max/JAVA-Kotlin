@@ -13,8 +13,9 @@ public class Main {
         // Star pattern::
 
         StarPattern s = new StarPattern(5);
-//        s.rightAnglePattern();
-
-        s.getParamidPattern();
+//
+            s.HourGlass();
+            s.ParamidPattern();
+            s.invertedParamid();
     }
 }
