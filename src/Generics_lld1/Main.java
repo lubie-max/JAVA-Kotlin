@@ -1,0 +1,10 @@
+package Generics_lld1;
+
+public class Main {
+
+public  static  void  main (String[] args){
+
+    System.out.println("hi there!!");
+
+}
+}
