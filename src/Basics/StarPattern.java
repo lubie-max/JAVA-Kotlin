@@ -25,7 +25,7 @@ public class StarPattern {
 
             // spaces
             for(int j = i ; j < num ; j++){
-            System.out.print("  ");
+            System.out.print(" ");
 
             }
 
@@ -72,9 +72,9 @@ public class StarPattern {
                 System.out.print("  ");
             }
             for(int k = num ; k >= i ; k--){
-                System.out.print(" *  ");
+                System.out.print("*  ");
             }
-            System.out.println(" ");
+            System.out.println("");
 
 
         }
@@ -83,13 +83,13 @@ public class StarPattern {
 
             for (int j  = num ; j >=i ; j--){
 
-            System.out.print("  ");
+            System.out.print(" ");
             }
 
             for (int k =1 ; k <=i ; k++){
-                System.out.print("  * ");
+                System.out.print(" * ");
             }
-            System.out.println("");
+            System.out.println("  ");
 
 
         }
