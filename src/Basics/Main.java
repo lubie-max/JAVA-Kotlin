@@ -13,9 +13,14 @@ public class Main {
         // Star pattern::
 
         StarPattern s = new StarPattern(5);
-//
-            s.HourGlass();
-            s.ParamidPattern();
-            s.invertedParamid();
+////
+//            s.HourGlass();
+//            s.ParamidPattern();
+//            s.invertedParamid();
+
+
+        flowBlocks fb = new flowBlocks();
+
+        fb.getNum();
     }
 }
