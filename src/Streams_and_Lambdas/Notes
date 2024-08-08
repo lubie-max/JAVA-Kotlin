@@ -1,0 +1,13 @@
+
+
+
+Functional interface:
+
+     if an interface contains only single abstract method .. it's called as lambda.
+
+
+     eg. Runnable , Callable etc
+
+
+Anonymous Class:
+
