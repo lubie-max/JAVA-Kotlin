@@ -7,7 +7,7 @@ public class Users {
     static String dept = "it";  // static variable
 
     static {
-        String dept_id = "001L";
+        String dept_id = "0021l";
 
     }
 }

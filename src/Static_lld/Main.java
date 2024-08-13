@@ -13,7 +13,10 @@ public class Main {
         Users u1 = new Users();
         u1.age = 10;
         u1.name = "duggu";
-//        dept_id = "002";
-        System.out.println(u1.age +  u1.name );
+//        Users.dept_id = "002";
+        Users dept_id;
+        System.out.println(u1.age +  u1.name , Users.dept_id);
+        System.out.println("Department ID: " + Users.dept_id);
+
     }
 }
