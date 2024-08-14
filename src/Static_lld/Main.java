@@ -15,8 +15,10 @@ public class Main {
         u1.name = "duggu";
 //        Users.dept_id = "002";
         Users dept_id;
-        System.out.println(u1.age +  u1.name , Users.dept_id);
-        System.out.println("Department ID: " + Users.dept_id);
+        System.out.println(u1.age +  u1.name );
+//        System.out.println("Department ID: " + Users.dept_id);
+
+        Users.show(u1);
 
     }
 }

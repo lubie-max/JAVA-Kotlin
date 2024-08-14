@@ -7,7 +7,15 @@ public class Users {
     static String dept = "it";  // static variable
 
     static {
-        String dept_id = "0021l";
+       // called once and first
+        System.out.println("this is static block");
 
+    }
+
+
+
+    public  static void  show(Users obj){
+        System.out.println("static method call!!");
+        System.out.println(obj.age  +  dept + obj.name );
     }
 }
