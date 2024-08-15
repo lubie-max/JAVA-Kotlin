@@ -15,6 +15,7 @@ public class Users {
 
 
     public  static void  show(Users obj){
+        // only static variable can directly be called , for instance variables we have to pass the object to the static method.
         System.out.println("static method call!!");
         System.out.println(obj.age  +  dept + obj.name );
     }
