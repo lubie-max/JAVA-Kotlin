@@ -27,14 +27,24 @@ class  B extends  A {
     }
 }
 
+class  C {
+//    int age ;
+
+    C(){
+        System.out.println("obj created");
+    }
+}
+
 
 public class Super_This_Demo {
 
     public static void main(String[] args) {
+        String s = "";
 
         // each constructor of a class calls default constructor of its parent class internally with super().
         // and if we have to call the constructor of same class we can use this()
 
+        new  C(); // anonymous objects. simply returns constructor if it has else blank
         B b1 = new B();
 
 
