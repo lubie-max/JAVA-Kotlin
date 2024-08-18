@@ -1,4 +1,4 @@
 
-
+GENERICS : for type safety.
 Denoted by angle brackets (<>), it specifies the type that will be used in the class, interface, or method.
 Common type parameters include T (type), E (element), K (key), and V (value).
