@@ -1,3 +1,5 @@
+package basics2;
+
 public class Intro {
     String name ;
     public  Intro( String name){

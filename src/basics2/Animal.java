@@ -1,3 +1,5 @@
+package basics2;
+
 public class Animal {
 
     public  void  eat(){

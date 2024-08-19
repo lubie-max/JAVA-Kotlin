@@ -1,4 +1,4 @@
-//import java.lang.classfile.Interfaces;
+package basics2;//import java.lang.classfile.Interfaces;
 
 public class Main {
 
