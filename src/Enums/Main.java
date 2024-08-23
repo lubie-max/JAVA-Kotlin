@@ -5,6 +5,7 @@ public class Main {
         // Enums -> listing things / enumeration
         Day monday = Day.MONDAY;
 
+        System.out.println(Day.THURSDAY);
 
     }
 }
