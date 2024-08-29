@@ -2,30 +2,20 @@ package Inner_Classes;
 
 public class Inner {
 
-    static  final  int Age = 19 ;
-    Boolean validAge ;
+    private int validMinAge = 19 ;
 
 
-    public  void   getValidAge(int a){
-        if (a > Age){
-            this.validAge = true;
-
-        }
-        else {
-
-           this.validAge = false;
-        }
-    }
-
-
-
+// This is member inner class.
     class  Voter{
 
-        boolean applicableCandidate(){
-            if (!validAge){
+        public void applicableCandidate(int age){
+            if ( age < validMinAge){
                 System.out.println("Voter is not eligible");
             }
-            return false;
+            else {
+
+            System.out.println("u r eligible");
+            }
         }
     }
 }
