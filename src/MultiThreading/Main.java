@@ -13,7 +13,18 @@ public class Main {
         NewThread t1 = new NewThread();
         t1.start();
 
-        for(int i = 1 ; i < 199999 ; i ++){
+        /// from runnable interface
+//        SecondNewThread t2 = new SecondNewThread();
+//        t2.run();
+
+        // using runnable interface's instance with Thread class method start
+        SecondNewThread secondNewThread = new SecondNewThread();
+        Thread  Ti = new Thread(secondNewThread);
+        Ti.start();
+
+
+
+        for(int i = 1 ; i < 10 ; i ++){
         System.out.println(Thread.currentThread().getName());
 
         }
