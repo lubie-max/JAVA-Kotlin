@@ -1,3 +1,15 @@
 
 
 Multithreading -->
+
+
+Multithreading refers to the ability to execute multiple threads within a Process concurrently.
+
+We have to ways to implement Multithreading : 1 ->  <<Runnable>> interface , 2 -> Thread class
+
+To execute the logic or code , there is run() method for both.
+
+1. run() --> holds  thread executable code.
+2. start() --> start the thread.
+3. sleep()  --> pauses the execution.
+4. join()  -->
