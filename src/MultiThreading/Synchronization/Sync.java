@@ -15,7 +15,8 @@ public class Sync {
 
         t1.join();
         t2.join();
-    } catch (Exception e){
+
+    } catch (Exception _){
 
     }
 

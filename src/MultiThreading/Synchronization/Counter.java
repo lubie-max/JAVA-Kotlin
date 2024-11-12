@@ -2,14 +2,14 @@ package MultiThreading.Synchronization;
 
 public class Counter {
 
-    private  int counter =0 ;
+    private  int count = 0 ; // shared resource
 
-    public void increament(){
-        counter ++ ;
+    public synchronized void  increament(){
+        count ++ ;
     }
 
     public  int getCounter(){
-        return  this.counter;
+        return  count;
     }
 
 

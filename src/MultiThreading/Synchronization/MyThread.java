@@ -1,7 +1,7 @@
 package MultiThreading.Synchronization;
 
 public class MyThread extends  Thread {
-    Counter counter ;
+    private final Counter counter ;
 
     MyThread(Counter counter){
         this.counter = counter ;
