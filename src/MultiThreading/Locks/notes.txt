@@ -1,0 +1,18 @@
+
+
+
+IN JAVA there is two kind of locks
+1. Intrinsic -> Intrinsic lock is associated
+with all the Objects by default we can use it by synchronized key word or block
+
+2. Extrinsic -> There is Lock Interface we can use to create / apply  lock explicitly.
+
+
+The synchronized keyword in Java provides basic thread-safety but has limitations:
+ it locks the entire method or block, leading to potential performance issues.
+  It lacks a try-lock mechanism, causing threads to block indefinitely, increasing
+  the risk of deadlocks. Additionally, synchronized doesn't support multiple condition variables,
+  offering only a single monitor per object with basic wait/notify mechanisms. In contrast, explicit locks (Lock interface)
+  offer finer-grained control, try-lock capabilities to avoid blocking, and more sophisticated thread coordination
+  through multiple condition variables, making them more flexible and powerful
+  for complex concurrency scenarios.
